@@ -1,3 +1,5 @@
+import MetaMaskImg from '../assets/logo_MetaMask.svg'
+
 export function Header(){
   return (
     <header className="flex justify-between m-10">
@@ -7,7 +9,17 @@ export function Header(){
         <a href="#">Sobre</a>
         <a href="#">FAQ</a>
       </div>
-      <button className="bg-rocket-color_iput h-12 p-4 flex items-center border border-red-600">Conectar Carteira</button>
+      <button className="
+        bg-rocket-text_color 
+        text-rocket-black_text 
+          font-bold 
+          h-12 p-4 
+          flex items-center 
+          gap-3 
+        ">
+        <img src={MetaMaskImg} alt="" />
+        Conectar Carteira
+      </button>
     </header>
   )
 }
