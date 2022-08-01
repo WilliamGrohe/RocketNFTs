@@ -3,6 +3,6 @@
 @tailwind utilities;
 
 body {
-  @apply bg-rocket-background text-rocket-text_color;
+  @apply bg-grids text-rocket-text_color;
   
 }

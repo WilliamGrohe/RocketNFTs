@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        grids: 'url(/src/assets/background.png)'
+      },
       fontFamily: {
         sans: 'Montserrat, sans-serif',
       },

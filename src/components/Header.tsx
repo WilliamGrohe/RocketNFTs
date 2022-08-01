@@ -2,7 +2,7 @@ import MetaMaskImg from '../assets/logo_MetaMask.svg'
 
 export function Header(){
   return (
-    <header className="flex justify-between m-10">
+    <header className="flex justify-between m-16">
       <strong className="text-4xl">Rocket <span className="text-rocket-color_logo">NFTs</span></strong>
       <div className="nav flex gap-14 items-center">
         <a href="#">Comprar NFT</a>
